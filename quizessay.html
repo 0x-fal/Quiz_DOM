@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <!-- Memuat file JavaScript eksternal -->
+      <script src="dom.js"></script>
+      
+   </head>
+
+   <body id="bd">
+      <h1 id="text2">Soal Essay: Document Object Model</h1>
+      <div> 
+         <!-- Gambar-gambar yang memicu penambahan ke keranjang -->
+         <img id="img1" src="thumbnails/flo1.jpg" alt="Bunga 1">
+         <img id="img2" src="thumbnails/flo2.jpg" alt="Bunga 2">
+         <img id="img3" src="thumbnails/flo3.jpg" alt="Bunga 3">
+      </div>
+
+      <div>
+         <p id="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <form action="#">
+         <input type="button" id="chtext" value="Change Text Color">
+         <input id = "colorpicker" type = "color">
+         <button onclick = "changecolor();"> change Color </button>
+         <input type="button" id="bccol" value="Change Background Color">
+      </form>
+
+      <div id="basket" style="border-style:solid">
+         <p id="basketstat">The flower basket currently contains 0 flowers.</p>
+         <!-- Bunga yang disalin akan ditambahkan di sini -->
+      </div>
+   </body>
+</html>
